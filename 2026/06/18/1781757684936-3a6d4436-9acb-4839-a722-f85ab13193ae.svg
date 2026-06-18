@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#fff"/>
+  <g fill="none" stroke="#111" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="550" y="275" width="660" height="230" rx="20"/>
+    <path d="M590 540c120 10 330 5 560 14" stroke="#f28c28" stroke-width="6"/>
+    <path d="M640 625c70-70 75-70 135-115"/>
+    <path d="M820 625c35-75 35-70 70-120"/>
+    <path d="M1010 625c-20-70-15-75-30-120"/>
+    <circle cx="700" cy="650" r="18"/>
+    <circle cx="890" cy="650" r="18"/>
+    <circle cx="1030" cy="650" r="18"/>
+    <path d="M350 220l130 30-30 82-130-35z"/>
+    <path d="M300 360l138-16 16 85-142 13z"/>
+    <path d="M410 470l120 42-38 78-120-45z"/>
+  </g>
+  <g>
+    <path d="M730 190c72-5 112 36 104 106-7 64-45 103-111 100-68-3-103-44-98-108 5-57 42-94 105-98z" fill="#111"/>
+    <circle cx="707" cy="270" r="10" fill="#fff"/>
+    <circle cx="755" cy="266" r="10" fill="#fff"/>
+    <path d="M690 390c-12 55-18 82-38 112" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M770 392c15 55 28 85 52 112" stroke="#111" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M635 245c-70-30-130-18-190 12" stroke="#111" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M620 305c-65 35-105 55-165 80" stroke="#111" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+  <g font-family="KaiTi, STKaiti, SimSun, serif" font-size="42" fill="#111">
+    <text x="570" y="245">该说啥</text>
+    <text x="910" y="245" fill="#d33">让它干啥</text>
+    <text x="1240" y="390" fill="#2f6fbd">现场太空</text>
+    <text x="360" y="660" fill="#f28c28">先别慌</text>
+  </g>
+</svg>
