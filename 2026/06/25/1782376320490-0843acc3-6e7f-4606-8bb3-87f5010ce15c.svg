@@ -1,0 +1,34 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="220" fill="#faf8f4" rx="12"/>
+
+  <!-- 机头进气口（圆形） -->
+  <ellipse cx="100" cy="110" rx="65" ry="70" fill="#d6d0c4" stroke="#999" stroke-width="2"/>
+  <ellipse cx="100" cy="110" rx="40" ry="45" fill="#bbb5a8" stroke="#888" stroke-width="1.5"/>
+  <text x="80" y="115" font-size="13" fill="#666" font-family="sans-serif" font-weight="500">进气口</text>
+
+  <!-- 上方发射系统锥体 -->
+  <polygon points="165,72 340,35 340,95" fill="#b8b0a0" stroke="#888" stroke-width="2"/>
+  <text x="220" y="62" font-size="14" fill="#c9a84c" font-family="sans-serif" font-weight="700">发射系统</text>
+  <text x="210" y="80" font-size="11" fill="#888" font-family="sans-serif">（扁平锥体）</text>
+
+  <!-- 下方接收系统整流罩 -->
+  <polygon points="165,148 340,125 340,185" fill="#c4bcac" stroke="#888" stroke-width="2"/>
+  <text x="220" y="162" font-size="14" fill="#c9a84c" font-family="sans-serif" font-weight="700">接收系统</text>
+  <text x="215" y="180" font-size="11" fill="#888" font-family="sans-serif">（浑圆整流罩）</text>
+
+  <!-- 进气道主体 -->
+  <rect x="340" y="60" width="200" height="100" rx="8" fill="#a8a090" stroke="#888" stroke-width="2"/>
+  <text x="410" y="118" font-size="14" fill="#fff" font-family="sans-serif" font-weight="500">进气道</text>
+
+  <!-- 标注线 - 发射 -->
+  <line x1="252" y1="55" x2="252" y2="18" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="252" cy="15" r="3" fill="#c9a84c"/>
+
+  <!-- 标注线 - 接收 -->
+  <line x1="252" y1="165" x2="252" y2="202" stroke="#c9a84c" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <circle cx="252" cy="205" r="3" fill="#c9a84c"/>
+
+  <!-- 图注 -->
+  <text x="15" y="215" font-size="10" fill="#aaa" font-family="sans-serif">T-3机头"金刚石"雷达布局示意图（非实际比例）</text>
+</svg>
