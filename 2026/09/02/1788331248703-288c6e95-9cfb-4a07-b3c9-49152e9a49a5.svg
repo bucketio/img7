@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="572" viewBox="0 0 1240 572" font-family="'PingFang SC','Microsoft YaHei','Hiragino Sans GB','Source Han Sans SC',sans-serif">
+<rect width="1240" height="572" fill="#FFFFFF"/>
+<rect x="0" y="0" width="1240" height="88" fill="#F2F7FC"/>
+<text x="48" y="52" font-size="34" font-weight="700" fill="#0F2436">WorkBuddy 16 项 · 一张图看清谁干啥</text>
+<text x="48" y="78" font-size="17" fill="#5B7186">自动挡 3 档 + 13 个具体模型，分 6 组。同族内越靠上能力越强、越贵</text>
+<rect x="48" y="126" width="368" height="198" rx="14" fill="#FFFFFF" stroke="#E3EAF1" stroke-width="1.5"/>
+<rect x="48" y="126" width="368" height="6" rx="3" fill="#00A0A0"/>
+<text x="70" y="162" font-size="21" font-weight="700" fill="#00A0A0">自动挡 3 档</text>
+<text x="70" y="183" font-size="14" fill="#7C8FA1">先选深度，再让系统配模型</text>
+<line x1="70" y1="196" x2="394" y2="196" stroke="#EEF2F7" stroke-width="1"/>
+<text x="70" y="218" font-size="16" font-weight="600" fill="#1E3446">快速 0.21x / 200K</text>
+<text x="70" y="236" font-size="13.5" fill="#77899B">简单问答、改写、格式整理</text>
+<text x="70" y="256" font-size="16" font-weight="600" fill="#1E3446">均衡 0.65x / 200K（默认）</text>
+<text x="70" y="274" font-size="13.5" fill="#77899B">大多数日常任务的默认档</text>
+<text x="70" y="294" font-size="16" font-weight="600" fill="#1E3446">极致 1.20x / 200K</text>
+<text x="70" y="312" font-size="13.5" fill="#77899B">复杂分析、高要求交付</text>
+<rect x="48" y="344" width="368" height="160" rx="14" fill="#FFFFFF" stroke="#E3EAF1" stroke-width="1.5"/>
+<rect x="48" y="344" width="368" height="6" rx="3" fill="#3D7BFF"/>
+<text x="70" y="380" font-size="21" font-weight="700" fill="#3D7BFF">DeepSeek 系列</text>
+<text x="70" y="401" font-size="14" fill="#7C8FA1">逻辑严密 · 1M 长文 · 理科生</text>
+<line x1="70" y1="414" x2="394" y2="414" stroke="#EEF2F7" stroke-width="1"/>
+<text x="70" y="436" font-size="16" font-weight="600" fill="#1E3446">DeepSeek-V4-Flash 0.17x / 1M</text>
+<text x="70" y="454" font-size="13.5" fill="#77899B">长文档首选，便宜且快，非高峰 5 折</text>
+<text x="70" y="474" font-size="16" font-weight="600" fill="#1E3446">DeepSeek-V4-Pro 0.51x / 1M</text>
+<text x="70" y="492" font-size="13.5" fill="#77899B">冷门专业知识、硬核推理，非高峰 5 折</text>
+<rect x="436" y="126" width="368" height="160" rx="14" fill="#FFFFFF" stroke="#E3EAF1" stroke-width="1.5"/>
+<rect x="436" y="126" width="368" height="6" rx="3" fill="#0053E0"/>
+<text x="458" y="162" font-size="21" font-weight="700" fill="#0053E0">混元 Hy 系列</text>
+<text x="458" y="183" font-size="14" fill="#7C8FA1">腾讯自研 · 中文稳 · 都有免费窗口</text>
+<line x1="458" y1="196" x2="782" y2="196" stroke="#EEF2F7" stroke-width="1"/>
+<text x="458" y="218" font-size="16" font-weight="600" fill="#1E3446">Hy4 preview 0.00x / 1M</text>
+<text x="458" y="236" font-size="13.5" fill="#77899B">旗舰全能，代码办公科研，免费到 9/10</text>
+<text x="458" y="256" font-size="16" font-weight="600" fill="#1E3446">Hy3 0.00x / 192K</text>
+<text x="458" y="274" font-size="13.5" fill="#77899B">日常中文办公，推文周报，免费到 9/30</text>
+<rect x="436" y="306" width="368" height="198" rx="14" fill="#FFFFFF" stroke="#E3EAF1" stroke-width="1.5"/>
+<rect x="436" y="306" width="368" height="6" rx="3" fill="#F2762E"/>
+<text x="458" y="342" font-size="21" font-weight="700" fill="#F2762E">Kimi 月之暗面</text>
+<text x="458" y="363" font-size="14" fill="#7C8FA1">视觉强 · 前端强 · 长程自主</text>
+<line x1="458" y1="376" x2="782" y2="376" stroke="#EEF2F7" stroke-width="1"/>
+<text x="458" y="398" font-size="16" font-weight="600" fill="#1E3446">Kimi-K3 1.62x / 1M</text>
+<text x="458" y="416" font-size="13.5" fill="#77899B">全场最强也最贵，前端与视觉生成突出</text>
+<text x="458" y="436" font-size="16" font-weight="600" fill="#1E3446">Kimi-K2.7-Code 0.57x / 256K</text>
+<text x="458" y="454" font-size="13.5" fill="#77899B">代码特化版本，改 Bug 重构首选</text>
+<text x="458" y="474" font-size="16" font-weight="600" fill="#1E3446">Kimi-K2.6 0.52x / 256K</text>
+<text x="458" y="492" font-size="13.5" fill="#77899B">日常图文视频混合理解</text>
+<rect x="824" y="126" width="368" height="274" rx="14" fill="#FFFFFF" stroke="#E3EAF1" stroke-width="1.5"/>
+<rect x="824" y="126" width="368" height="6" rx="3" fill="#6B4EFF"/>
+<text x="846" y="162" font-size="21" font-weight="700" fill="#6B4EFF">GLM 智谱系列</text>
+<text x="846" y="183" font-size="14" fill="#7C8FA1">文风自然 · 长文本 · 多模态</text>
+<line x1="846" y1="196" x2="1170" y2="196" stroke="#EEF2F7" stroke-width="1"/>
+<text x="846" y="218" font-size="16" font-weight="600" fill="#1E3446">GLM-5.3 0.79x / 1M</text>
+<text x="846" y="236" font-size="13.5" fill="#77899B">写没 AI 味的文案，订阅优先</text>
+<text x="846" y="256" font-size="16" font-weight="600" fill="#1E3446">GLM-5.3-Flash 0.06x / 1M</text>
+<text x="846" y="274" font-size="13.5" fill="#77899B">长程自主、跑量神器</text>
+<text x="846" y="294" font-size="16" font-weight="600" fill="#1E3446">GLM-5.2 0.79x / 1M</text>
+<text x="846" y="312" font-size="13.5" fill="#77899B">长程任务，夜间 5 折</text>
+<text x="846" y="332" font-size="16" font-weight="600" fill="#1E3446">GLM-5.1 0.79x / 200K</text>
+<text x="846" y="350" font-size="13.5" fill="#77899B">日常通用，稳</text>
+<text x="846" y="370" font-size="16" font-weight="600" fill="#1E3446">GLM-5v-Turbo 0.71x / 200K</text>
+<text x="846" y="388" font-size="13.5" fill="#77899B">原生多模态，截图转代码、读图表</text>
+<rect x="824" y="420" width="368" height="122" rx="14" fill="#FFFFFF" stroke="#E3EAF1" stroke-width="1.5"/>
+<rect x="824" y="420" width="368" height="6" rx="3" fill="#0AA37B"/>
+<text x="846" y="456" font-size="21" font-weight="700" fill="#0AA37B">MiniMax 系列</text>
+<text x="846" y="477" font-size="14" fill="#7C8FA1">OpenCode 模型 · 长输出 · 多模态</text>
+<line x1="846" y1="490" x2="1170" y2="490" stroke="#EEF2F7" stroke-width="1"/>
+<text x="846" y="512" font-size="16" font-weight="600" fill="#1E3446">MiniMax-M3 0.25x / 512K</text>
+<text x="846" y="530" font-size="13.5" fill="#77899B">上下文 512K + 128K 输出，长程任务高性价比</text>
+</svg>
