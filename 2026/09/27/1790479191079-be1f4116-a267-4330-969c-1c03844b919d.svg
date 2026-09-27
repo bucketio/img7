@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" font-family="'PingFang SC','Microsoft YaHei','Segoe UI',sans-serif">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EDF2F7"/>
+    </linearGradient>
+    <marker id="arrowGray" markerWidth="10" markerHeight="8" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L8,3.5 L0,7 Z" fill="#94A3B8"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="8" refX="8" refY="3.5" orient="auto">
+      <path d="M0,0 L8,3.5 L0,7 Z" fill="#EA580C"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="470" fill="url(#bgGrad)"/>
+
+  <!-- 标题区 -->
+  <text x="480" y="44" text-anchor="middle" font-size="26" font-weight="bold" fill="#1E3A5F">数据质量平台核心引擎</text>
+  <text x="480" y="72" text-anchor="middle" font-size="14" fill="#64748B">规则管理 · 调度执行 · 异常跟踪闭环</text>
+
+  <!-- 卡片1：质量规则管理 -->
+  <g>
+    <rect x="55" y="100" width="190" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <path d="M55,110 a10,10 0 0 1 10,-10 h170 a10,10 0 0 1 10,10 v30 h-190 Z" fill="#2563EB"/>
+    <text x="150" y="129" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">质量规则管理</text>
+    <circle cx="83" cy="163.5" r="3" fill="#2563EB"/>
+    <text x="95" y="168" font-size="12.5" fill="#334155">规则分类（六大维度）</text>
+    <circle cx="83" cy="189.5" r="3" fill="#2563EB"/>
+    <text x="95" y="194" font-size="12.5" fill="#334155">SQL 检查表达式</text>
+    <circle cx="83" cy="215.5" r="3" fill="#2563EB"/>
+    <text x="95" y="220" font-size="12.5" fill="#334155">直接 / 必选 / 互斥</text>
+    <circle cx="83" cy="241.5" r="3" fill="#2563EB"/>
+    <text x="95" y="246" font-size="12.5" fill="#334155">责任人动态指定</text>
+  </g>
+
+  <!-- 卡片2：调度执行 -->
+  <g>
+    <rect x="275" y="100" width="190" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <path d="M275,110 a10,10 0 0 1 10,-10 h170 a10,10 0 0 1 10,10 v30 h-190 Z" fill="#0891B2"/>
+    <text x="370" y="129" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">调度执行</text>
+    <circle cx="303" cy="163.5" r="3" fill="#0891B2"/>
+    <text x="315" y="168" font-size="12.5" fill="#334155">Cron 执行间隔</text>
+    <circle cx="303" cy="189.5" r="3" fill="#0891B2"/>
+    <text x="315" y="194" font-size="12.5" fill="#334155">一任务绑定多规则</text>
+    <circle cx="303" cy="215.5" r="3" fill="#0891B2"/>
+    <text x="315" y="220" font-size="12.5" fill="#334155">跨数据源执行</text>
+    <circle cx="303" cy="241.5" r="3" fill="#0891B2"/>
+    <text x="315" y="246" font-size="12.5" fill="#334155">前置变量传递</text>
+  </g>
+
+  <!-- 卡片3：检查结果 -->
+  <g>
+    <rect x="495" y="100" width="190" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <path d="M495,110 a10,10 0 0 1 10,-10 h170 a10,10 0 0 1 10,10 v30 h-190 Z" fill="#7C3AED"/>
+    <text x="590" y="129" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">检查结果</text>
+    <circle cx="523" cy="163.5" r="3" fill="#7C3AED"/>
+    <text x="535" y="168" font-size="12.5" fill="#334155">正常 / 异常判定</text>
+    <circle cx="523" cy="189.5" r="3" fill="#7C3AED"/>
+    <text x="535" y="194" font-size="12.5" fill="#334155">记录规则执行耗时</text>
+    <circle cx="523" cy="215.5" r="3" fill="#7C3AED"/>
+    <text x="535" y="220" font-size="12.5" fill="#334155">异常拆分异常项</text>
+    <circle cx="523" cy="241.5" r="3" fill="#7C3AED"/>
+    <text x="535" y="246" font-size="12.5" fill="#334155">支撑规则持续优化</text>
+  </g>
+
+  <!-- 卡片4：异常跟踪闭环 -->
+  <g>
+    <rect x="715" y="100" width="190" height="160" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+    <path d="M715,110 a10,10 0 0 1 10,-10 h170 a10,10 0 0 1 10,10 v30 h-190 Z" fill="#EA580C"/>
+    <text x="810" y="129" text-anchor="middle" font-size="16" font-weight="bold" fill="#FFFFFF">异常跟踪闭环</text>
+    <circle cx="743" cy="163.5" r="3" fill="#EA580C"/>
+    <text x="755" y="168" font-size="12.5" fill="#334155">异常项发起工单</text>
+    <circle cx="743" cy="189.5" r="3" fill="#EA580C"/>
+    <text x="755" y="194" font-size="12.5" fill="#334155">误报 / 根因 / 措施</text>
+    <circle cx="743" cy="215.5" r="3" fill="#EA580C"/>
+    <text x="755" y="220" font-size="12.5" fill="#334155">原因归类审批</text>
+    <circle cx="743" cy="241.5" r="3" fill="#EA580C"/>
+    <text x="755" y="246" font-size="12.5" fill="#334155">处理闭环跟踪</text>
+  </g>
+
+  <!-- 卡片间箭头 -->
+  <line x1="249" y1="180" x2="268" y2="180" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <line x1="469" y1="180" x2="488" y2="180" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <line x1="689" y1="180" x2="708" y2="180" stroke="#94A3B8" stroke-width="2" marker-end="url(#arrowGray)"/>
+
+  <!-- 闭环回路：异常闭环 -> 规则管理（持续优化） -->
+  <path d="M810,260 L810,295 L150,295 L150,266" fill="none" stroke="#EA580C" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowOrange)"/>
+  <text x="480" y="288" text-anchor="middle" font-size="12.5" fill="#EA580C">基于执行耗时与工单反馈，持续优化质量规则（PDCA 循环）</text>
+
+  <!-- 数据源层 -->
+  <g>
+    <rect x="55" y="330" width="850" height="100" rx="10" fill="#FFFFFF" stroke="#CBD5E1" stroke-dasharray="5,4"/>
+    <text x="480" y="360" text-anchor="middle" font-size="14" font-weight="bold" fill="#1E3A5F">企业数据源（SQL 检查表达式执行对象）</text>
+    <g font-size="13" fill="#334155" text-anchor="middle">
+      <rect x="187" y="378" width="130" height="34" rx="17" fill="#EFF6FF" stroke="#BFDBFE"/>
+      <text x="252" y="400">关系型数据库</text>
+      <rect x="341" y="378" width="90" height="34" rx="17" fill="#F0F9FF" stroke="#BAE6FD"/>
+      <text x="386" y="400">PDM</text>
+      <rect x="455" y="378" width="90" height="34" rx="17" fill="#F0F9FF" stroke="#BAE6FD"/>
+      <text x="500" y="400">ERP</text>
+      <rect x="569" y="378" width="90" height="34" rx="17" fill="#F0F9FF" stroke="#BAE6FD"/>
+      <text x="614" y="400">CAPP</text>
+      <rect x="683" y="378" width="90" height="34" rx="17" fill="#F0F9FF" stroke="#BAE6FD"/>
+      <text x="728" y="400">MES</text>
+    </g>
+  </g>
+</svg>
