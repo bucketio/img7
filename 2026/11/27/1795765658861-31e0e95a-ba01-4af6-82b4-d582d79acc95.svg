@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="383" viewBox="0 0 900 383" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+  <!--
+    PON 知识系列 · 公众号封面模板（2.35:1, 900x383）
+    令牌：03 期号  1:64 是怎么把 光分掉的 标题两行  分光器原理与光的算术 极简简介
+          模块一 · 认识 PON 模块名  #22D3EE 主题色  #3B82F6 次要色
+    主题色参考（按模块轮换）：
+      基础 #22D3EE/#3B82F6 | 协议 #34D399/#10B981 | IEEE #FBBF24/#F59E0B
+      演进 #A78BFA/#8B5CF6 | 运维 #F472B6/#EC4899 | 未来 #38BDF8/#0EA5E9
+  -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070F"/>
+      <stop offset="0.55" stop-color="#0A1130"/>
+      <stop offset="1" stop-color="#060A1C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.6">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#3B82F6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentBar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0.2"/>
+    </linearGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softSm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="900" height="383" fill="url(#bg)"/>
+  <rect width="900" height="383" fill="url(#grid)"/>
+  <rect width="900" height="383" fill="url(#glow)"/>
+
+  <!-- 光纤光弧（信号脉冲） -->
+  <g fill="none" stroke-linecap="round" filter="url(#soft)">
+    <path d="M-20 330 C 180 300, 300 250, 520 262 S 830 300, 940 250"
+          stroke="#22D3EE" stroke-opacity="0.5" stroke-width="2"/>
+    <path d="M-20 352 C 200 330, 340 296, 560 306 S 840 330, 940 296"
+          stroke="#3B82F6" stroke-opacity="0.35" stroke-width="1.5"/>
+    <path d="M-20 92 C 240 120, 420 60, 660 74 S 880 96, 940 70"
+          stroke="#22D3EE" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="14 10"/>
+  </g>
+  <g filter="url(#softSm)">
+    <circle cx="182" cy="316" r="4.5" fill="#22D3EE"/>
+    <circle cx="520" cy="262" r="6" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="768" cy="284" r="4" fill="#3B82F6"/>
+  </g>
+
+  <!-- 右侧：OLT → 分光器 → ONU 拓扑剪影 -->
+  <g opacity="0.9">
+    <g filter="url(#softSm)" stroke="#22D3EE" fill="none" stroke-width="2">
+      <path d="M742 118 L 742 150 M742 150 L 668 186 M742 150 L 742 186 M742 150 L 816 186
+               M668 186 L 640 224 M668 186 L 668 224 M668 186 L 696 224
+               M742 186 L 714 224 M742 186 L 742 224 M742 186 L 770 224
+               M816 186 L 816 224 M816 186 L 844 224 M816 186 L 788 224"
+            stroke-opacity="0.75"/>
+    </g>
+    <rect x="722" y="92" width="40" height="26" rx="5" fill="#0B1638" stroke="#22D3EE" stroke-width="2" filter="url(#softSm)"/>
+    <text x="742" y="110" font-size="12" fill="#22D3EE" text-anchor="middle" font-weight="700">OLT</text>
+    <circle cx="742" cy="150" r="7" fill="none" stroke="#FFFFFF" stroke-opacity="0.85" stroke-width="2"/>
+    <circle cx="742" cy="150" r="2.5" fill="#FFFFFF"/>
+    <g fill="#0B1638" stroke="#3B82F6" stroke-width="1.6">
+      <rect x="630" y="224" width="20" height="14" rx="3"/>
+      <rect x="658" y="224" width="20" height="14" rx="3"/>
+      <rect x="686" y="224" width="20" height="14" rx="3"/>
+      <rect x="704" y="224" width="20" height="14" rx="3"/>
+      <rect x="732" y="224" width="20" height="14" rx="3"/>
+      <rect x="760" y="224" width="20" height="14" rx="3"/>
+      <rect x="806" y="224" width="20" height="14" rx="3"/>
+      <rect x="834" y="224" width="20" height="14" rx="3"/>
+      <rect x="778" y="224" width="20" height="14" rx="3"/>
+    </g>
+    <text x="742" y="264" font-size="11" fill="#93C5FD" text-anchor="middle" letter-spacing="2">1 : 64 ODN</text>
+  </g>
+
+  <!-- 左上：期号与模块 -->
+  <g>
+    <rect x="44" y="42" rx="17" height="34" width="150" fill="#22D3EE" fill-opacity="0.14"
+          stroke="#22D3EE" stroke-opacity="0.65"/>
+    <circle cx="64" cy="59" r="4" fill="#22D3EE" filter="url(#softSm)"/>
+    <text x="78" y="65" font-size="17" fill="#FFFFFF" font-weight="700" letter-spacing="1">第 03 期</text>
+    <rect x="204" y="42" rx="17" height="34" width="196" fill="#FFFFFF" fill-opacity="0.06"
+          stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="302" y="65" font-size="15" fill="#C7D2FE" text-anchor="middle" letter-spacing="2">模块一 · 认识 PON</text>
+  </g>
+
+  <!-- 主标题 -->
+  <g fill="#FFFFFF" font-weight="800" filter="url(#softSm)">
+    <text x="44" y="176" font-size="54" letter-spacing="2">1:64 是怎么把</text>
+    <text x="44" y="240" font-size="54" letter-spacing="2">光分掉的</text>
+  </g>
+  <rect x="44" y="266" width="118" height="5" rx="2.5" fill="url(#accentBar)"/>
+
+  <!-- 极简内容简介 -->
+  <text x="44" y="308" font-size="21" fill="#9FB3D9" letter-spacing="0.5">分光器原理与光的算术</text>
+
+  <!-- 底部系列署名 -->
+  <g>
+    <text x="44" y="352" font-size="14" fill="#5E7296" letter-spacing="3">PON 知识图谱系列 · 50 期</text>
+    <text x="856" y="352" font-size="13" fill="#5E7296" text-anchor="end" letter-spacing="1">STANDARDS-BASED</text>
+  </g>
+</svg>
