@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="620" viewBox="0 0 1080 620" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Source Han Sans SC, sans-serif">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1224"/>
+      <stop offset="1" stop-color="#070B18"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="fiber" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="gl" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="g2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="620" rx="22" fill="url(#card)"/>
+  <rect width="1080" height="620" rx="22" fill="url(#g2)"/>
+  <rect x="0" y="0" width="1080" height="6" rx="3" fill="url(#edge)"/>
+
+  <g>
+    <rect x="44" y="40" rx="6" width="6" height="34" fill="#22D3EE" filter="url(#gl)"/>
+    <text x="66" y="66" font-size="30" fill="#FFFFFF" font-weight="700">图 1｜PON 的点对多点结构</text>
+    <text x="66" y="102" font-size="18" fill="#8FA6C8">一根主干光纤经无源分光器，把信号分给多台 ONU</text>
+  </g>
+
+  <!-- 主干光纤 -->
+  <g filter="url(#gl)">
+    <path d="M172 250 H 470" stroke="#22D3EE" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M620 340 H 700 M620 340 C 660 340, 660 250, 700 250 M620 340 C 660 340, 660 430, 700 430"
+          stroke="#22D3EE" stroke-opacity="0.75" stroke-width="3" fill="none"/>
+  </g>
+  <circle cx="300" cy="250" r="6" fill="#FFFFFF" filter="url(#gl)"/>
+  <circle cx="300" cy="250" r="12" fill="none" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="300" y="222" font-size="16" fill="#93C5FD" text-anchor="middle">主干光纤（无源）</text>
+
+  <!-- OLT -->
+  <g filter="url(#gl)">
+    <rect x="64" y="216" width="108" height="70" rx="12" fill="#0E1730" stroke="#22D3EE" stroke-width="2.5"/>
+  </g>
+  <text x="118" y="252" font-size="26" fill="#FFFFFF" font-weight="700" text-anchor="middle">OLT</text>
+  <text x="118" y="276" font-size="15" fill="#8FA6C8" text-anchor="middle">局端</text>
+
+  <!-- 分光器 -->
+  <g filter="url(#gl)">
+    <polygon points="470,196 620,340 470,484" fill="#0E1730" stroke="#22D3EE" stroke-width="2.5"/>
+  </g>
+  <text x="516" y="330" font-size="24" fill="#FFFFFF" font-weight="700" text-anchor="middle">1 : 64</text>
+  <text x="516" y="362" font-size="16" fill="#93C5FD" text-anchor="middle">无源分光器</text>
+  <text x="516" y="392" font-size="14" fill="#5E7296" text-anchor="middle">不需供电</text>
+
+  <!-- ONU -->
+  <g filter="url(#gl)">
+    <rect x="700" y="216" width="132" height="70" rx="12" fill="#0E1730" stroke="#3B82F6" stroke-width="2.5"/>
+    <rect x="700" y="396" width="132" height="70" rx="12" fill="#0E1730" stroke="#3B82F6" stroke-width="2.5"/>
+  </g>
+  <g fill="#FFFFFF" font-size="24" font-weight="700" text-anchor="middle">
+    <text x="766" y="250">ONU</text>
+    <text x="766" y="430">ONU</text>
+  </g>
+  <g fill="#8FA6C8" font-size="15" text-anchor="middle">
+    <text x="766" y="276">用户 1</text>
+    <text x="766" y="456">用户 64</text>
+  </g>
+
+  <!-- 右侧：规则说明 -->
+  <g>
+    <rect x="874" y="196" width="166" height="270" rx="14" fill="#0E1730" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="2"/>
+    <text x="898" y="234" font-size="19" fill="#22D3EE" font-weight="700">两个方向</text>
+    <text x="898" y="274" font-size="17" fill="#FFFFFF" font-weight="700">下行：广播</text>
+    <text x="898" y="302" font-size="15" fill="#93C5FD">按 Port-ID 过滤</text>
+    <text x="898" y="326" font-size="15" fill="#93C5FD">AES-128 加密</text>
+    <line x1="898" y1="352" x2="1016" y2="352" stroke="#FFFFFF" stroke-opacity="0.15"/>
+    <text x="898" y="392" font-size="17" fill="#FFFFFF" font-weight="700">上行：排队</text>
+    <text x="898" y="420" font-size="15" fill="#93C5FD">BWmap 授权</text>
+    <text x="898" y="444" font-size="15" fill="#93C5FD">125 μs 一帧</text>
+  </g>
+
+  <g>
+    <line x1="44" y1="548" x2="1036" y2="548" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <text x="44" y="584" font-size="19" fill="#7E93B8">示意图（分光比与距离按 G.984.1 典型配置，非等比）· 依据 ITU-T G.984.1（2008）、G.984.3（2014）</text>
+    <text x="1036" y="584" font-size="15" fill="#4E5F7E" text-anchor="end">PON 知识图谱</text>
+  </g>
+</svg>
